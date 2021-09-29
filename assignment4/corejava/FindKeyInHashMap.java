@@ -5,10 +5,10 @@ import java.util.HashMap;
 public class FindKeyInHashMap {
 	public static void main(String[] args) {
 		HashMap<Integer, String> hm = new HashMap<Integer, String>();
-		hm.put(1, "Ram");
-		hm.put(2, "Akbar");
-		hm.put(3, "Anthony");
-		hm.put(4,"Deepika");
+		hm.put(1, "Sahitya");
+		hm.put(2, "ganesh");
+		hm.put(3, "farida");
+		
 		
 		FindKeyInHashMap fk = new FindKeyInHashMap();
 		System.out.println("Key - 1  value is present in hashmap ?" + fk.findkey(hm,1));
