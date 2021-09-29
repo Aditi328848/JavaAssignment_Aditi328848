@@ -3,7 +3,7 @@ package Assignment4;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Program1
+public class SetKeys
 {
 
 	public static void main(String[] args)
