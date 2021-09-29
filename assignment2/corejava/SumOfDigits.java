@@ -3,10 +3,10 @@ package assignment2.corejava;
 public class SumOfDigits {
 	public static void main(String[] args) {
 		SumOfDigits sd = new SumOfDigits();
-		sd.sumofDigits(1234);
-		sd.sumofDigits(222222222);
+		sd.sumofDigits(9999);
+		sd.sumofDigits(456732);
 
-
+               sd.sumofDigits(56742211111);
 	}
 
 	private void sumofDigits(int i) {
