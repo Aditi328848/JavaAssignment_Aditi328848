@@ -1,21 +1,31 @@
-package assignment4.corejava;
-import java.util.Hashtable;
-import java.util.Iterator;
-import java.util.Set;
-public class SetKeys {
-public static void main(String[] args) {
-		Hashtable<String,String> ht = new Hashtable<String,String>();
-		ht.put("1","One");
-		ht.put("2","Two");
-		ht.put("3","Three");
+package Assignment4;
 
-		Set<String> st = ht.keySet();
+import java.util.HashMap;
+import java.util.Map;
 
-		System.out.println("Set created from Hashtable Keys contains :");
-		Iterator<String> itr = st.iterator();
-		while(itr.hasNext())
-			System.out.println(itr.next());
+public class Program1
+{
 
+	public static void main(String[] args)
+	{
+		String s="aabbbccdeeff";
+		Map<Character,Integer> map = new HashMap<Character,Integer>();
+		for (int i = 0; i < s.length(); i++) 
+		{
+		  char c = s.charAt(i);
+		  if (map.containsKey(c)) 
+		  {
+		    int count = map.get(c);
+		    map.put(c, ++count);
+		  } 
+		  else 
+		  {
+		    map.put(c, 1);
+		  }
+		 
+		}
+		 System.out.println("the values are" +map);
 	}
+	
 
 }
