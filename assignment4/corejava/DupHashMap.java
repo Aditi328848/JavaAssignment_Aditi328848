@@ -8,7 +8,7 @@ public class DupHashMap {
 
 		public static void main(String[] args) {
 
-			String a = "Chakravarthy is a good man";
+			String a = "i am going to market now";
 
 			DupHashMap qc = new DupHashMap();
 			qc.countusingHash(a);
