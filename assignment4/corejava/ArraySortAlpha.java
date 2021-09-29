@@ -7,18 +7,13 @@ public class ArraySortAlpha {
 
 		public static void main(String[] args) {
 			ArrayList<String> names = new ArrayList<String>();
+			names.add("geetha");
 			names.add("seetha");
-			names.add("sudhin");
-			names.add("Swetha");
-			names.add("Neethu");
-			names.add("ananya");
-			names.add("Athira");
-			names.add("bala");
-			names.add("Tony");
-			names.add("Karthika");
-			names.add("Nithin");
-			names.add("Vinod");
-			names.add("jeena");
+			names.add("netra");
+			names.add("revati");
+			names.add("christina");
+			names.add("dayana");
+			names.add("vanita");
 			System.out.println("Before Sorting");
 			for (String string : names) {
 				System.out.println(string);
